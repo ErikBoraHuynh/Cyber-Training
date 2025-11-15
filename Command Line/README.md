@@ -1,5 +1,7 @@
 ## Brief explanations of your problem-solving approach:
+While completing this module, I used a practical, step-by-step approach to build my command-line skills. I started by learning the fundamentals in TryHackMe and Linux Journey, focusing on understanding why each command works rather than memorizing syntax. I practiced each new command directly in the terminal to build confidence and familiarity.
 
+For exercises like OverTheWire Bandit, I approached each level as a small security challenge. I broke down the problem, identified useful commands, tested different options, and used tools like man, --help, and careful observation to find solutions. When issues came up, I troubleshot by checking file paths, permissions, and context until I understood the root cause.
 
 ## Reflection on what you learned and found challenging:
 
