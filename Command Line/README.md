@@ -41,8 +41,8 @@ For exercises in OverTheWire Bandit, I approached each level as a small security
 | >                                             | Redirect standard output of a command to a file, overwrites existing file |
 | >>                                            | Redirect standard output of a command to a file, but appends the output instead |
 
-
-
+***
+<img width="1920" height="400" alt="windows 1" src="https://github.com/user-attachments/assets/17dbb180-43a8-40b1-8f8b-a5e2ab4270fd" />
 
 ### Windows Commands
 | Command                                       | Description        |
@@ -59,7 +59,7 @@ For exercises in OverTheWire Bandit, I approached each level as a small security
 | tracert                                       | Determines the route to a destination by sending ICMP packets and tracking the number of hops a packet takes to reach its destination |
 | nslookup                                      | Query the Domain Name System (DNS) to obtain IP addresses for domain names or vice versa |
 | netstat                                       | Display network statistics, connections, and listening ports |
-| cd                                            | Navigate between directories |
+| cd                                            | Display current directory or navigate between directories |
 | dir                                           | Display a list of files and subdirectories within a specified directory |
 | tree                                          | Display graphically, the directory structure of a specified path or drive |
 | mkdir                                         | Create new directory |
@@ -72,6 +72,7 @@ For exercises in OverTheWire Bandit, I approached each level as a small security
 | tasklist /FI                                  | Display a list of all currently running processes on a local or remote computer, filtered by specific criteria |
 | taskkill                                      | Terminate one or more running processes |
 | /?                                            | Displays the syntax and a description of a command |
+| shutdown                                      | Shutdown, restart, or log off a computer locally or remotely |
 
 ### Questions or areas where you'd like additional clarification:
 
