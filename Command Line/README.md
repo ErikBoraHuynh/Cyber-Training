@@ -5,7 +5,7 @@ For exercises in OverTheWire Bandit, I approached each level as a small security
 
 ## Reflection on what you learned and found challenging:
 
-<img width="1920" height="402" alt="linux" src="https://github.com/user-attachments/assets/13697c41-9769-47d1-84d4-76d6fe102d4f" />
+<img width="1910" height="399" alt="linux 1" src="https://github.com/user-attachments/assets/e26d8d96-39c8-471c-9f25-0e9a03f3880f" />
 <img width="1907" height="786" alt="linux 2" src="https://github.com/user-attachments/assets/0e0c08af-eea9-4a0b-9c46-522a3cdfad95" />
 
 
@@ -73,6 +73,54 @@ For exercises in OverTheWire Bandit, I approached each level as a small security
 | taskkill                                      | Terminate one or more running processes |
 | /?                                            | Displays the syntax and a description of a command |
 | shutdown                                      | Shutdown, restart, or log off a computer locally or remotely |
+
+***
+<img width="1911" height="425" alt="windows 2" src="https://github.com/user-attachments/assets/595e1529-2bcb-4b21-89da-1cb9f2b41578" />
+
+### Windows Versions:
+Windows 1.0 - 1985
+Windows XP - 2001
+Windows 7 - 2009
+Windows 10 - 2015
+Windows 11 - 2021
+
+### Windows GUI:
+- The Desktop
+- Start Menu
+- Search Box (Cortana)
+- Task View
+- Taskbar
+- Toolbars
+- Notification Area
+
+### Windows File System:
+- File Allocation Table (FAT16/FAT32)
+- High Performance File System (HPFS)
+- New Technology File System (NTFS)
+
+### New Technology File System Permissions:
+- Full control
+- Modify
+- Read & Execute
+- List folder contents
+- Read
+- Write
+
+### Windows/System32 Folders
+- Environment variables store information about the operating system environment. This information includes details such as the operating system path, the number of processors used by the operating system, and the location of temporary folders.
+- The system  environment variable for the Windows directory is %windir%.
+- The System32 folder holds the important files that are critical for the operating system. You should proceed with extreme caution when interacting with this folder. Accidentally deleting any files or folders within System32 can render the Windows OS inoperational.
+
+### User Accounts, Profiles, and Permissions
+- An Administrator can make changes to the system: add users, delete users, modify groups, modify settings on the system, etc. 
+- A Standard User can only make changes to folders/files attributed to the user & can't perform system-level changes, such as install programs.
+- Right-click on the Start Menu and click Run, then type lusrmgr.msc to open Local Users and Management
+- User Account Control (UAC)
+
+### Settings, Control Panel, and Task Manager
+- The Settings menu was introduced in Windows 8, the first Windows operating system catered to touch screen tablets, and is still available in Windows 10. As a matter of fact, the Settings menu is now the primary location a user goes to if they are looking to change the system. 
+- Control Panel is the menu where you will access more complex settings and perform more complex actions. In some cases, you can start in Settings and end up in the Control Panel.
+- The Task Manager provides information about the applications and processes currently running on the system. Other information is also available, such as how much CPU and RAM are being utilized, which falls under Performance. The keyboard shortcut to Task Manager is Ctrl+Shift+Esc.
 
 ### Questions or areas where you'd like additional clarification:
 
