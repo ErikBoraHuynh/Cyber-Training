@@ -122,5 +122,5 @@ Windows 11 - 2021
 - Control Panel is the menu where you will access more complex settings and perform more complex actions. In some cases, you can start in Settings and end up in the Control Panel.
 - The Task Manager provides information about the applications and processes currently running on the system. Other information is also available, such as how much CPU and RAM are being utilized, which falls under Performance. The keyboard shortcut to Task Manager is Ctrl+Shift+Esc.
 
-### Questions or areas where you'd like additional clarification:
+## Questions or areas where you'd like additional clarification:
 
