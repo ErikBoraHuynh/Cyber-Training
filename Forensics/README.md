@@ -5,7 +5,7 @@
 
 ### Hidden in plainsight:
 
-1. Downloaded the file using "wget https://challenge-files.picoctf.net/c_amiable_citadel/58f49cf585a3e6073ccd6a3ae03903dfd71567a2db9101645b428ac6820fb3cf/img.jpg"
+1. Downloaded the file using **wget https://challenge-files.picoctf.net/c_amiable_citadel/58f49cf585a3e6073ccd6a3ae03903dfd71567a2db9101645b428ac6820fb3cf/img.jpg**
    
 2. Verified that the file is downloaded using **ls**
    
