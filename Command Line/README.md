@@ -24,6 +24,8 @@ For exercises in OverTheWire Bandit, I approached each level as a small security
 | rm                                            | Remove files and directories |
 | touch                                         | Update access and modify timestamps for existing files; if the file does not exist it can create a new file |
 | find                                          | Search for files or directories within a specific location |
+| grep                                          | Search for text patterns within a specific file |
+| strings                                       | Extracts and displays sequences of printable characters from files |
 | file                                          | Display file type |
 | less                                          | Display text files or output in paged format |
 | history                                       | Display history of used commands |
