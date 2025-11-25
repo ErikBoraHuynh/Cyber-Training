@@ -29,6 +29,7 @@ For exercises in OverTheWire Bandit, I approached each level as a small security
 | file                                          | Display file type |
 | less                                          | Display text files or output in paged format |
 | history                                       | Display history of used commands |
+| gzip                                          | Reduce file size by replacing the original file with a compressed version ending in .gz |
 | help                                          | Provide info about Bash built-in commands |
 | man                                           | Provide info about commands, their flags/options, and how they're used |
 | whatis                                        | Provide one-line description of a command from its man page |
