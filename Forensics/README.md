@@ -25,19 +25,36 @@
 
 ***
 
+### Riddle Registry:
+
 1. Downloaded the file using **wget https://challenge-files.picoctf.net/c_amiable_citadel/570d726d77600d7540c9a8fe7df9e37f4e8b05fafe16f2b316f4a0603dfa7d2f/confidential.pdf**
 
 2. Verified that the file is downloaded using **ls**
 
 3. Read the file's metadata using **exiftool confidential.pdf**
 
-4. Noticed that the author cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9mOTQzMDBjNH0= in the file's metadata is a Base64 string, hinted at with the = at the end. Decoded it using **echo "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9mOTQzMDBjNH0=" | base64 -d** to get the CTF Flag**
+4. Noticed that the author cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9mOTQzMDBjNH0= in the file's metadata is a Base64 string, hinted at with the = at the end. Decoded it using **echo "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9mOTQzMDBjNH0=" | base64 -d** to get the CTF Flag
 
 <img width="1179" height="508" alt="PicoCTF Forensics 2" src="https://github.com/user-attachments/assets/1e9ae067-c30b-4a7c-84ce-c4aab7fc30aa" />
+
 ***
 
-image
-test
+### Flag in Flame:
+
+1. Downloaded the file directly in my Kali Linux VM
+
+2. Verified that the file is downloaded using **cd Downloads** and then **ls**
+
+3. After taking a look at the hint given in the challenge, which stated "Use base64 to decode the data and generate the image file.", I converted the file to an image using **cat logs.txt | base64 -d > logs_Decoded.jpg**
+
+4. Noticed that the opened image contained the text that only has characters from 0-9 and A-F, indicating that it is written in hexadecimal
+
+5. Decoded the hex text using **CyberChef** to get the CTF Flag
+
+<img width="1609" height="939" alt="PicoCTF Forensics 3" src="https://github.com/user-attachments/assets/365f1712-c30a-451d-994d-d5a099847191" />
+<img width="637" height="821" alt="PicoCTF Forensics 3 1" src="https://github.com/user-attachments/assets/62083d79-4049-4cd1-9d63-ade1e6b11fee" />
+<img width="1530" height="886" alt="PicoCTF Forensics 3 2" src="https://github.com/user-attachments/assets/e0590549-aec0-4bfc-952d-c666c0b0d647" />
+
 ***
 
 image
