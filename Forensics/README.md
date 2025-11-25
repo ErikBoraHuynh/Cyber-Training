@@ -3,8 +3,7 @@
 
 ## PicoCTF Completion
 
-### Hidden in Plainsight:
-<img width="599" height="806" alt="PicoCTF Forensics 1" src="https://github.com/user-attachments/assets/59afffcd-b559-4740-8a5b-98c497f471e6" />
+### Hidden in plainsight:
 
 1. Downloaded the file using "wget https://challenge-files.picoctf.net/c_amiable_citadel/58f49cf585a3e6073ccd6a3ae03903dfd71567a2db9101645b428ac6820fb3cf/img.jpg"
    
@@ -21,6 +20,9 @@
 7. Verified that flag.txt is downloaded using **ls**
 
 8. Displayed the contents of flag.txt using **cat flag.txt** to get the CTF flag
+
+<img width="599" height="806" alt="PicoCTF Forensics 1" src="https://github.com/user-attachments/assets/59afffcd-b559-4740-8a5b-98c497f471e6" />
+
 ***
 
 image
