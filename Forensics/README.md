@@ -91,5 +91,18 @@
 
 ***
 
-image
-test
+### Secret of the Polyglot:
+
+1. Downloaded the file directly in my Kali Linux VM
+
+2. Verified that the file is downloaded using **cd Downloads** and then **ls**
+
+3. After taking a look at the hint given in the challenge, which stated "This problem can be solved by just opening the file in different ways", I checked the file's hexadecimal dump using **xxd flag2of2-final.pdf**
+
+4. Noticed that the first four bytes of the file are "89 50 4E 47", which indicates that it is a PNG file. I output a PNG version of the original PDF file by using **cat flag2of2-final.pdf > flag2of2-final.png**
+
+5. Noticed that the text shown in the PDF file and the PNG file are in PicoCTF{flag} format. Combined the texts in both files to get the PicoCTF flag
+
+<img width="954" height="348" alt="PicoCTF Forensics 6" src="https://github.com/user-attachments/assets/07b93eb0-9d4d-4f03-b525-0f335ca51d38" />
+<img width="954" height="320" alt="PicoCTF Forensics 6 1" src="https://github.com/user-attachments/assets/14d7dd45-2ce5-4ac5-b458-517139399034" />
+<img width="1150" height="629" alt="PicoCTF Forensics 6 2" src="https://github.com/user-attachments/assets/a5cb48a8-c70b-428d-9c4b-71cba97e7823" />
