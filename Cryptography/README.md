@@ -26,7 +26,7 @@ You can think of it like:
 - Ciphertext is a list of numbers
 - Key is a single number used repeatedly
 
-Example With Actual Text:
+Example with Actual Text:
 
 Let’s say someone encrypted the message "Hi" using key 20.
 
